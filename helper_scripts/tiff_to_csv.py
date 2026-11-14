@@ -159,7 +159,7 @@ def lst_geotiffs_to_dataframe_arcpy(
 
 if __name__ == "__main__":
     # Adjust paths to match your folder structure exactly
-    DATA_DIRECTORY = r"./data/lst_c_tiff"
+    DATA_DIRECTORY = r"./data/gi/lst_06"
     OUTPUT_FILE = r"./data/dataframes/lst_annual_timeseries.csv"
 
     lst_geotiffs_to_dataframe_arcpy(
